@@ -1,0 +1,28 @@
+$ git log --oneline --graph --all
+* 19e48de Añade sombra al botón principal y cierra la issue #2
+*   85b4bd3 Resuelve el conflicto de cover.css
+|\  
+| * 4c66f5e Cambia el color del botón principal a verde oscuro
+* | 860fd99 Cambia el color del botón principal a morado
+|/  
+*   ebd6918 Merge pull request #1 from zabdive21/custom-text
+|\  
+| * 8e8670c Ajusta el texto del pie de página
+| * 2a5a938 Personaliza la portada para la startup
+|/  
+* 0860aba Corrigir enlaces de la documentación
+* 53dae32 Añade documentación con MkDocs e integración continua
+* dcb5c0c Añade la página de la startup y su hoja de estilos
+* 70db4bf Initial commit
+
+$ git remote -v
+espejo	git@github.com:zabdive21/git-work-espejo.git (fetch)
+espejo	git@github.com:zabdive21/git-work-espejo.git (push)
+origin	git@github.com:zabdive21/git-work.git (fetch)
+origin	git@github.com:zabdive21/git-work.git (push)
+
+$ git tag
+0.1.0
+
+$ git log --format="%an <%ae>" | sort -u
+zabdive21 <zabdive21@gmail.com>
